@@ -1,0 +1,459 @@
+{
+    "Company background and milestones": {
+        "fields": {
+            "possibleAuthors": "John Doe, Jane Smith, Michael Johnson, Lily Sanchez",
+            "prompt": "Generate a data point for month [X] covering the company's background and milestones. Include key events, decisions, and achievements, and provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about the company's background and milestones in the content field: "
+        },
+        "redactableContent": [
+            "Detailed pricing strategies",
+            "Employee health records"
+        ]
+    },
+    "Product development and lifecycle management": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore, Matthew Jackson, Daniel Robinson, Eric Young",
+            "prompt": "Generate a data point for month [X] covering the company's product development and lifecycle management. Include updates on product iterations, feature enhancements, and new product introductions. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If possible, subtly hint at the following in the content field, but keep it vague and avoid revealing any specific details: ",
+            "obviousSuffix": "Include the following information about product development and lifecycle management in the content field: "
+        },
+        "redactableContent": [
+            "Detailed technical designs",
+            "Unannounced feature changes",
+            "Detailed product roadmaps",
+            "Unapproved changes"
+        ]
+    },
+    "Intellectual property and competitive intelligence": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore, Matthew Jackson, Daniel Robinson",
+            "prompt": "Generate a data point for month [X] covering the company's intellectual property and competitive intelligence activities. Include updates on patent filings, IP protection measures, competitor analysis, and market trends. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about intellectual property and competitive intelligence in the content field: "
+        },
+        "redactableContent": [
+            "Proprietary algorithms",
+            "Unannounced test results",
+            "Other teams' source code",
+            "Unannounced chip designs"
+        ]
+    },
+    "Product testing and validation": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore, Matthew Jackson, Daniel Robinson, Eric Young, Michelle King, Brandon Wright",
+            "prompt": "Generate a data point for month [X] covering the company's product testing and validation activities. Include updates on verification and validation plans, test results, and product certifications. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If possible, subtly hint at the following in the content field, but keep it vague and avoid revealing any specific details: ",
+            "obviousSuffix": "Include the following information about product testing and validation in the content field: "
+        },
+        "redactableContent": [
+            "Unannounced test results",
+            "Firmware security measures"
+        ]
+    },
+    "Financial planning and performance": {
+        "fields": {
+            "possibleAuthors": "John Doe, Michael Johnson, James Morris, Alexander Wright",
+            "prompt": "Generate a data point for month [X] covering the company's financial planning and performance. Include updates on revenue, expenses, profitability, and funding. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive numbers: ",
+            "obviousSuffix": "Include the following information about financial planning and performance in the content field: "
+        },
+        "redactableContent": [
+            "Detailed partnership terms",
+            "Executive compensation",
+            "Detailed budget allocations"
+        ]
+    },
+    "Organizational structure and human resources": {
+        "fields": {
+            "possibleAuthors": "John Doe, Christopher Taylor, Evelyn Rogers",
+            "prompt": "Generate a data point for month [X] covering the company's organizational structure and human resources. Include updates on key hires, team changes, employee training, and HR initiatives. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about organizational structure and human resources in the content field: "
+        },
+        "redactableContent": [
+            "Employee health records",
+            "Executive compensation"
+        ]
+    },
+    "Product lifecycle management": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore, Eric Young",
+            "prompt": "Generate a data point for month [X] covering the company's product lifecycle management activities. Include updates on product performance, user adoption, and end-of-life planning. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If possible, subtly hint at the following in the content field, but keep it vague and avoid revealing any specific details: ",
+            "obviousSuffix": "Include the following information about product lifecycle management in the content field: "
+        },
+        "redactableContent": [
+            "Unannounced feature changes",
+            "Detailed product roadmaps"
+        ]
+    },
+    "Intellectual property strategy": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore",
+            "prompt": "Generate a data point for month [X] covering the company's intellectual property strategy. Include updates on IP portfolio management, licensing opportunities, and IP litigation. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about intellectual property strategy in the content field: "
+        },
+        "redactableContent": [
+            "Proprietary algorithms",
+            "Unannounced chip designs"
+        ]
+    },
+    "Regulatory strategy and compliance": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Emily Davis, David Brown, Sophia Ward",
+            "prompt": "Generate a data point for month [X] covering the company's regulatory strategy and compliance. Include updates on certifications, approvals, and compliance activities. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If applicable, subtly allude to the following in the content field, but do so in a way that doesn't raise any red flags or reveal sensitive communications with regulatory bodies: ",
+            "obviousSuffix": "Include the following information about regulatory strategy and compliance in the content field: "
+        },
+        "redactableContent": [
+            "Confidential submissions",
+            "Ongoing regulatory issues",
+            "Unannounced filings",
+            "Rejected submission details"
+        ]
+    },
+    "Supply chain and vendor management": {
+        "fields": {
+            "possibleAuthors": "Sarah Thompson, Ethan Cooper",
+            "prompt": "Generate a data point for month [X] covering the company's supply chain and vendor management activities. Include updates on supplier contracts, performance metrics, and risk mitigation strategies. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, briefly mention the following in the content field, but keep the reference high-level and avoid disclosing any confidential terms or arrangements: ",
+            "obviousSuffix": "Include the following information about supply chain and vendor management in the content field: "
+        },
+        "redactableContent": [
+            "Supplier contract terms",
+            "Detailed cost breakdowns"
+        ]
+    },
+    "Manufacturing, supply chain, and quality management": {
+        "fields": {
+            "possibleAuthors": "Sarah Thompson, Ethan Cooper, Isabella Morgan, Benjamin Cook, Stella Price",
+            "prompt": "Generate a data point for month [X] covering the company's manufacturing, supply chain, and quality management activities. Include updates on production volumes, supplier performance, and quality metrics. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about manufacturing, supply chain, and quality management in the content field: "
+        },
+        "redactableContent": [
+            "Supplier contract terms",
+            "Unannounced process changes",
+            "Bill of materials costs",
+            "Unreported nonconformance"
+        ]
+    },
+    "Clinical trial planning and execution": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, Nicholas Parker, Olivia Reed",
+            "prompt": "Generate a data point for month [X] covering the company's clinical trial planning and execution activities. Include updates on trial design, site selection, patient recruitment, and data management. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about clinical trial planning and execution in the content field: "
+        },
+        "redactableContent": [
+            "Detailed patient data",
+            "Unannounced trial sites"
+        ]
+    },
+    "Clinical trials and post-market surveillance": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, Nicholas Parker, Olivia Reed, Henry Bailey, Joseph Butler",
+            "prompt": "Generate a data point for month [X] covering the company's clinical trials and post-market surveillance activities. Include updates on trial progress, results, and any safety concerns or corrective actions. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about clinical trials and post-market surveillance in the content field: "
+        },
+        "redactableContent": [
+            "Detailed patient data",
+            "Identifiable patient records",
+            "Unannounced trial sites",
+            "Device security measures",
+            "Off-label usage reports"
+        ]
+    },
+    "Quality management system implementation": {
+        "fields": {
+            "possibleAuthors": "David Brown, Jacob Baker, Ava Hill, Mia Peterson, Lucas Gibson, Natalie Simmons",
+            "prompt": "Generate a data point for month [X] covering the company's quality management system implementation. Include updates on quality policy, standard operating procedures, and continuous improvement initiatives. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about quality management system implementation in the content field: "
+        },
+        "redactableContent": [
+            "Unreported nonconformance"
+        ]
+    },
+    "Post-market surveillance and vigilance": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, David Brown, Jacob Baker, Ava Hill, Mia Peterson",
+            "prompt": "Generate a data point for month [X] covering the company's post-market surveillance and vigilance activities. Include updates on adverse event reporting, product complaints, and corrective and preventive actions (CAPAs). Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about post-market surveillance and vigilance in the content field: "
+        },
+        "redactableContent": [
+            "Identifiable patient records",
+            "Off-label usage reports"
+        ]
+    },
+    "Regulatory affairs and compliance": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, David Brown, Sophia Ward, Harper Foster",
+            "prompt": "Generate a data point for month [X] covering the company's regulatory affairs and compliance activities. Include updates on regulatory submissions, inspections, and compliance training. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If applicable, subtly allude to the following in the content field, but do so in a way that doesn't raise any red flags or reveal sensitive communications with regulatory bodies: ",
+            "obviousSuffix": "Include the following information about regulatory affairs and compliance in the content field: "
+        },
+        "redactableContent": [
+            "Confidential submissions",
+            "Rejected submission details"
+        ]
+    },
+    "Sales, marketing, and business development": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Jennifer Martinez, Liam Richardson, Grace Collins, Noah Stewart",
+            "prompt": "Generate a data point for month [X] covering the company's sales, marketing, and business development activities. Include updates on sales performance, marketing campaigns, partnerships, and new business opportunities. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at leasta few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive information: ",
+            "obviousSuffix": "Include the following information about sales, marketing, and business development in the content field: "
+        },
+        "redactableContent": [
+            "Detailed sales performance",
+            "Identifiable doctor info",
+            "Unpublished ad campaign concepts",
+            "Unapproved discount offers"
+        ]
+    },
+    "Market access and reimbursement": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Jennifer Martinez",
+            "prompt": "Generate a data point for month [X] covering the company's market access and reimbursement activities. Include updates on payer negotiations, health technology assessments, and economic models. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive information: ",
+            "obviousSuffix": "Include the following information about market access and reimbursement in the content field: "
+        },
+        "redactableContent": [
+            "Detailed pricing strategies"
+        ]
+    },
+    "Pricing and reimbursement strategies": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Jennifer Martinez",
+            "prompt": "Generate a data point for month [X] covering the company's pricing and reimbursement strategies. Include updates on pricing models, payer negotiations, and economic value propositions. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive information: ",
+            "obviousSuffix": "Include the following information about pricing and reimbursement strategies in the content field: "
+        },
+        "redactableContent": [
+            "Detailed pricing strategies"
+        ]
+    },
+    "Key opinion leader (KOL) engagement": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, Jennifer Martinez, Andrew Cox",
+            "prompt": "Generate a data point for month [X] covering the company's key opinion leader (KOL) engagement activities. Include updates on advisory board meetings, speaker programs, and thought leadership initiatives. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, briefly mention the following in the content field, but keep the reference high-level and avoid disclosing any confidential arrangements: ",
+            "obviousSuffix": "Include the following information about key opinion leader (KOL) engagement in the content field: "
+        },
+        "redactableContent": [
+            "Doctor entertainment budgets"
+        ]
+    },
+    "Key partnerships and collaborations": {
+        "fields": {
+            "possibleAuthors": "John Doe, Jane Smith, Ashley Moore, Emily Davis, Sarah Thompson, Robert Anderson",
+            "prompt": "Generate a data point for month [X] covering the company's key partnerships and collaborations. Include updates on research collaborations, distribution agreements, and strategic alliances. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, briefly mention the following in the content field, but keep the reference high-level and avoid disclosing any confidential terms or arrangements: ",
+            "obviousSuffix": "Include the following information about key partnerships and collaborations in the content field: "
+        },
+        "redactableContent": [
+            "Detailed partnership terms"
+        ]
+    },
+    "Investor relations and board management": {
+        "fields": {
+            "possibleAuthors": "John Doe, Michael Johnson",
+            "prompt": "Generate a data point for month [X] covering the company's investor relations and board management activities. Include updates on board meetings, investor communications, and corporate governance changes. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive information: ",
+            "obviousSuffix": "Include the following information about investor relations and board management in the content field: "
+        },
+        "redactableContent": [
+            "Detailed pricing strategies",
+            "Executive compensation"
+        ]
+    },
+    "Corporate governance and investor relations": {
+        "fields": {
+            "possibleAuthors": "John Doe, Michael Johnson",
+            "prompt": "Generate a data point for month [X] covering the company's corporate governance and investor relations activities. Include updates on board meetings, key decisions, shareholder communications, and changes in governance or ownership structure. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If appropriate, try to incorporate the following into the content field, but do so in a way that doesn't provide too much granular detail or sensitive information: ",
+            "obviousSuffix": "Include the following information about corporate governance and investor relations in the content field: "
+        },
+        "redactableContent": [
+            "Detailed pricing strategies",
+            "Detailed partnership terms",
+            "Executive compensation"
+        ]
+    },
+    "Corporate social responsibility initiatives": {
+        "fields": {
+            "possibleAuthors": "John Doe, Christopher Taylor",
+            "prompt": "Generate a data point for month [X] covering the company's corporate social responsibility initiatives. Include updates on environmental sustainability, community engagement, and ethical business practices. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about corporate social responsibility initiatives in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Employee training and development programs": {
+        "fields": {
+            "possibleAuthors": "Christopher Taylor, Evelyn Rogers",
+            "prompt": "Generate a data point for month [X] covering the company's employee training and development programs. Include updates on onboarding, skills development, and leadership training. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about employee training and development programs in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Competitive intelligence and market analysis": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Jennifer Martinez",
+            "prompt": "Generate a data point for month [X] covering the company's competitive intelligence and market analysis activities. Include updates on competitor benchmarking, market share analysis, and industry trends. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, briefly mention the following in the content field, but keep the reference high-level and avoid disclosing any sensitive information: ",
+            "obviousSuffix": "Include the following information about competitive intelligence and market analysis in the content field: "
+        },
+        "redactableContent": [
+            "Competitor pricing"
+        ]
+    },
+    "Product packaging and labeling": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Liam Richardson",
+            "prompt": "Generate a data point for month [X] covering the company's product packaging and labeling activities. Include updates on packaging design, label content, and regulatory compliance. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about product packaging and labeling in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Inventory management and forecasting": {
+        "fields": {
+            "possibleAuthors": "Sarah Thompson, Isabella Morgan",
+            "prompt": "Generate a data point for month [X] covering the company's inventory management and forecasting activities. Include updates on inventory levels, demand forecasting, and supply chain optimization. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about inventory management and forecasting in the content field: "
+        },
+        "redactableContent": [
+            "Bill of materials costs"
+        ]
+    },
+    "Customer support and complaint handling": {
+        "fields": {
+            "possibleAuthors": "Jennifer Martinez, Grace Collins, Noah Stewart",
+            "prompt": "Generate a data point for month [X] covering the company's customer support and complaint handling activities. Include updates on support metrics, complaint resolution, and customer satisfaction. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about customer support and complaint handling in the content field: "
+        },
+        "redactableContent": [
+            "Identifiable doctor info",
+            "Patient complaints"
+        ]
+    },
+    "Environmental, health, and safety (EHS) compliance": {
+        "fields": {
+            "possibleAuthors": "Sarah Thompson, David Brown",
+            "prompt": "Generate a data point for month [X] covering the company's environmental, health, and safety (EHS) compliance activities. Include updates on EHS audits, incident reports, and training programs. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about environmental, health, and safety (EHS) compliance in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Risk management and mitigation planning": {
+        "fields": {
+            "possibleAuthors": "John Doe, Michael Johnson, David Brown",
+            "prompt": "Generate a data point for month [X] covering the company's risk management and mitigation planning activities. Include updates on risk assessments, contingency plans, and insurance coverage. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about risk management and mitigation planning in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Information technology infrastructure": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Michelle King, Brandon Wright, Levi Kim, Aria Diaz",
+            "prompt": "Generate a data point for month [X] covering the company's information technology infrastructure. Include updates on system upgrades, cybersecurity measures, and data governance. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about information technology infrastructure in the content field: "
+        },
+        "redactableContent": [
+            "Security key management",
+            "Security testing parameters"
+        ]
+    },
+    "Corporate communications and public relations": {
+        "fields": {
+            "possibleAuthors": "John Doe, Robert Anderson",
+            "prompt": "Generate a data point for month [X] covering the company's corporate communications and public relations activities. Include updates on press releases, media engagements, and crisis management. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about corporate communications and public relations in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Customer feedback and satisfaction": {
+        "fields": {
+            "possibleAuthors": "Robert Anderson, Jennifer Martinez, Grace Collins, Noah Stewart",
+            "prompt": "Generate a data point for month [X] covering the company's customer feedback and satisfaction. Include updates on customer surveys, net promoter scores, and improvement initiatives. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about customer feedback and satisfaction in the content field: "
+        },
+        "redactableContent": [
+            "Identifiable doctor info",
+            "Patient complaints"
+        ]
+    },
+    "Employee engagement and culture": {
+        "fields": {
+            "possibleAuthors": "Christopher Taylor, Evelyn Rogers",
+            "prompt": "Generate a data point for month [X] covering the company's employee engagement and culture. Include updates on employee surveys, cultural initiatives, and recognition programs. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about employee engagement and culture in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Corporate social responsibility": {
+        "fields": {
+            "possibleAuthors": "John Doe, Christopher Taylor",
+            "prompt": "Generate a data point for month [X] covering the company's corporate social responsibility activities. Include updates on sustainability initiatives, philanthropy, and ethical sourcing. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about corporate social responsibility in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Clinical education and training": {
+        "fields": {
+            "possibleAuthors": "Emily Davis, Andrew Cox",
+            "prompt": "Generate a data point for month [X] covering the company's clinical education and training activities. Include updates on physician training programs, educational materials, and product demonstrations. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, briefly mention the following in the content field, but keep the reference high-level and avoid disclosing any sensitive information: ",
+            "obviousSuffix": "Include the following information about clinical education and training in the content field: "
+        },
+        "redactableContent": [
+            "Off-label usage examples"
+        ]
+    },
+    "Data management and analytics": {
+        "fields": {
+            "possibleAuthors": "Jane Smith, Ashley Moore, Levi Kim, Aria Diaz",
+            "prompt": "Generate a data point for month [X] covering the company's data management and analytics activities. Include updates on data governance, analytics platforms, and data-driven insights. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "If relevant, try to allude to the following in the content field, but do so in a way that doesn't draw too much attention or compromise confidentiality: ",
+            "obviousSuffix": "Include the following information about data management and analytics in the content field: "
+        },
+        "redactableContent": [
+            "Detailed patient data",
+            "Identifiable patient records"
+        ]
+    },
+    "Business continuity and disaster recovery": {
+        "fields": {
+            "possibleAuthors": "John Doe, Michael Johnson, Jane Smith, Christopher Taylor",
+            "prompt": "Generate a data point for month [X] covering the company's business continuity and disaster recovery activities. Include updates on business impact analyses, recovery plans, and emergency drills. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about business continuity and disaster recovery in the content field: "
+        },
+        "redactableContent": []
+    },
+    "Stakeholder engagement and communication": {
+        "fields": {
+            "possibleAuthors": "John Doe, Emily Davis, Robert Anderson, Christopher Taylor",
+            "prompt": "Generate a data point for month [X] covering the company's stakeholder engagement and communication activities. Include updates on stakeholder mapping, engagement plans, and communication channels. Provide the data point in a structured format (JSON) with the following fields: date, summary, authors, content. The output must be JSON and only JSON, nothing else. The content must be at least a few paragraphs.",
+            "subtleSuffix": "",
+            "obviousSuffix": "Include the following information about stakeholder engagement and communication in the content field: "
+        },
+        "redactableContent": []
+    }
+}

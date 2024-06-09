@@ -1,0 +1,533 @@
+{
+    "CEO": {
+        "topical_access": [
+            "Company background and milestones",
+            "Financial planning and performance",
+            "Organizational structure and human resources",
+            "Corporate governance and investor relations",
+            "Corporate social responsibility initiatives",
+            "Risk management and mitigation planning",
+            "Business continuity and disaster recovery",
+            "Stakeholder engagement and communication"
+        ],
+        "redact_content": [
+            "Detailed pricing strategies"
+        ]
+    },
+    "CTO": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence", 
+            "Product testing and validation",
+            "Intellectual property strategy",
+            "Manufacturing, supply chain, and quality management",
+            "Clinical trial planning and execution",
+            "Quality management system implementation",
+            "Information technology infrastructure"
+        ],
+        "redact_content": [
+            "Detailed patient data",
+            "Ongoing regulatory issues"
+        ]
+    },
+    "CFO": {
+        "topical_access": [
+            "Financial planning and performance",
+            "Corporate governance and investor relations",
+            "Risk management and mitigation planning",
+            "Business continuity and disaster recovery"
+        ],
+        "redact_content": [
+            "Proprietary algorithms",
+            "Detailed clinical trial data",
+            "Detailed partnership terms"
+        ]
+    },
+    "VP of Medical Affairs": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance",
+            "Clinical education and training",
+            "Key opinion leader (KOL) engagement"
+        ],
+        "redact_content": [
+            "Detailed technical designs",
+            "Confidential submissions",
+            "Detailed sales performance" 
+        ]
+    },
+    "VP of Regulatory & Quality": {
+        "topical_access": [
+            "Regulatory strategy and compliance",
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance",
+            "Environmental, health, and safety (EHS) compliance"
+        ],
+        "redact_content": [
+            "Unannounced R&D projects",
+            "Identifiable patient records",
+            "Competitor pricing"
+        ]
+    },
+    "VP of Manufacturing": {
+        "topical_access": [
+            "Manufacturing, supply chain, and quality management",
+            "Supply chain and vendor management",
+            "Inventory management and forecasting",
+            "Environmental, health, and safety (EHS) compliance"
+        ],
+        "redact_content": [
+            "Detailed clinical outcomes",
+            "Unannounced filings",
+            "Supplier contract terms"
+        ]
+    },
+    "VP of Marketing": {
+        "topical_access": [
+            "Product development and lifecycle management", 
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Product packaging and labeling",
+            "Corporate communications and public relations"
+        ],
+        "redact_content": [
+            "Unannounced feature changes",
+            "Unpublished research findings"
+        ]
+    },
+    "VP of Sales": {
+        "topical_access": [
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",  
+            "Pricing and reimbursement strategies",
+            "Key opinion leader (KOL) engagement",
+            "Customer support and complaint handling"
+        ],
+        "redact_content": [
+            "Detailed product roadmaps",
+            "Identifiable doctor info"  
+        ]
+    },
+    "VP of Human Resources": {
+        "topical_access": [
+            "Organizational structure and human resources",
+            "Employee training and development programs", 
+            "Employee engagement and culture"
+        ],
+        "redact_content": [
+            "Employee health records",
+            "Executive compensation"
+        ]
+    },
+    "VP of R&D": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation",
+            "Clinical trial planning and execution", 
+            "Data management and analytics"  
+        ],
+        "redact_content": [
+            "Unapproved changes",
+            "Detailed budget allocations"
+        ]
+    },
+    "Director of Electrical Engineering": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Animal study data",
+            "Unannounced test results"
+        ]
+    },
+    "Manager, Embedded Systems": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"  
+        ],
+        "redact_content": [
+            "Other teams' source code"
+        ]
+    },
+    "Manager, Firmware": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Other teams' source code" 
+        ]
+    },
+    "Director of Mechanical Engineering": {
+        "topical_access": [
+            "Product development and lifecycle management", 
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Unapproved materials",
+            "Supplier selection rationale"
+        ]
+    },
+    "Manager, Design": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Firmware security measures"
+        ]
+    },
+    "Manager, Materials": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation",
+            "Supply chain and vendor management"
+        ],
+        "redact_content": [
+            "Unannounced chip designs",
+            "Detailed cost breakdowns"
+        ]
+    },
+    "VP of Product Development": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation",
+            "Clinical trial planning and execution",
+            "Regulatory affairs and compliance"
+        ],
+        "redact_content": [
+            "Unannounced launch dates"
+        ]
+    },
+    "Director of Systems Engineering": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Security key management"
+        ]
+    },
+    "Director of Verification & Validation": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation",
+            "Regulatory affairs and compliance"
+        ],
+        "redact_content": [
+            "Security testing parameters"
+        ]
+    },
+    "Director of Clinical Engineering": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Clinical trials and post-market surveillance"  
+        ],
+        "redact_content": [
+            "Anonymized patient data"
+        ]
+    },
+    "Director of Clinical Research": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance"
+        ],
+        "redact_content": [
+            "Unannounced trial sites"
+        ]
+    },
+    "Clinical Trial Manager": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance" 
+        ],
+        "redact_content": [
+            "Device security measures"
+        ]
+    },
+    "Medical Science Liaison": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance",
+            "Key opinion leader (KOL) engagement"
+        ],
+        "redact_content": [
+            "Off-label usage reports",
+            "Doctor entertainment budgets"
+        ]
+    },
+    "Director of Regulatory Affairs": {
+        "topical_access": [
+            "Regulatory strategy and compliance",
+            "Regulatory affairs and compliance"
+        ], 
+        "redact_content": [
+            "Rejected submission details"
+        ]
+    },
+    "Director of Quality Assurance": {
+        "topical_access": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"
+        ],
+        "redact_content": [
+            "Unannounced audit plans"
+        ]
+    },
+    "Director of Quality Control": {
+        "topical_access": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"  
+        ],
+        "redact_content": [
+            "Unreported nonconformance"  
+        ]
+    },
+    "VP of Quality": {
+        "topical_access": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"  
+        ],
+        "redact_content": [
+            "Unreported nonconformance",
+            "Unannounced audit plans"
+        ]
+    },
+    "Manufacturing Engineering Manager": {
+        "topical_access": [
+            "Manufacturing, supply chain, and quality management",
+            "Supply chain and vendor management" 
+        ],
+        "redact_content": [
+            "Unannounced process changes"
+        ]
+    },
+    "Production Manager": {
+        "topical_access": [
+            "Manufacturing, supply chain, and quality management",
+            "Inventory management and forecasting",
+            "Regulatory affairs and compliance" 
+        ],
+        "redact_content": [
+            "Upcoming inspections",
+            "Bill of materials costs"  
+        ]
+    },
+    "Product Marketing Manager": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",  
+            "Product packaging and labeling"
+        ],
+        "redact_content": [
+            "Unpublished ad campaign concepts"
+        ]
+    },
+    "Regional Sales Manager": {
+        "topical_access": [
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Customer support and complaint handling"  
+        ],
+        "redact_content": [
+            "Patient complaints",
+            "Unapproved discount offers"
+        ]
+    },
+    "Sales Representative": {
+        "topical_access": [
+            "Sales, marketing, and business development",
+            "Customer support and complaint handling"
+        ],
+        "redact_content": [
+            "Detailed technical info",
+            "Off-label usage examples",
+            "Prospect pipeline details" 
+        ]
+    },
+    "Executive Assistant": {
+        "topical_access": [
+            "Company background and milestones",
+            "Organizational structure and human resources",
+            "Stakeholder engagement and communication"
+        ],
+        "redact_content": [
+            "Detailed pricing strategies",
+            "Employee health records"  
+        ]
+    },
+    "Financial Planning & Analysis Manager": {
+        "topical_access": [
+            "Financial planning and performance"
+        ],
+        "redact_content": [
+            "Proprietary algorithms",
+            "Detailed clinical trial data",
+            "Detailed partnership terms"
+        ]  
+    },
+    "Senior Financial Analyst": {
+        "topical_access": [
+            "Financial planning and performance"  
+        ],
+        "redact_content": [
+            "Proprietary algorithms",
+            "Detailed clinical trial data",
+            "Detailed partnership terms"
+        ]
+    },
+    "HR Manager": {
+        "topical_access": [
+            "Organizational structure and human resources",
+            "Employee training and development programs",
+            "Employee engagement and culture"  
+        ],
+        "redact_content": [
+            "Employee health records",
+            "Executive compensation" 
+        ]
+    },
+    "Clinical Research Associate": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance"
+        ],
+        "redact_content": [
+            "Unannounced trial sites",
+            "Device security measures" 
+        ]
+    },
+    "Regulatory Specialist": {
+        "topical_access": [
+            "Regulatory strategy and compliance",
+            "Regulatory affairs and compliance"
+        ],
+        "redact_content": [
+            "Unannounced R&D projects",
+            "Rejected submission details"
+        ]
+    },
+    "Quality Engineer": {
+        "topical_access": [
+            "Quality management system implementation",  
+            "Post-market surveillance and vigilance"
+        ],
+        "redact_content": [
+            "Unannounced audit plans",
+            "Unreported nonconformance"
+        ]
+    },
+    "Quality Associate": {
+        "topical_access": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance"  
+        ],
+        "redact_content": [
+            "Unannounced audit plans",
+            "Unreported nonconformance"
+        ]
+    },
+    "Manufacturing Engineer": {
+        "topical_access": [
+            "Manufacturing, supply chain, and quality management"
+        ],
+        "redact_content": [
+            "Unannounced process changes",
+            "Bill of materials costs"
+        ]
+    },
+    "Production Associate": {
+        "topical_access": [
+            "Manufacturing, supply chain, and quality management"   
+        ],
+        "redact_content": [
+            "Upcoming inspections", 
+            "Bill of materials costs"
+        ]
+    },
+    "Firmware Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Other teams' source code"
+        ]
+    },
+    "Embedded Systems Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation" 
+        ],
+        "redact_content": [
+            "Other teams' source code"
+        ]
+    },
+    "Mechanical Design Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "redact_content": [
+            "Firmware security measures"
+        ]
+    },
+    "Materials Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation" 
+        ],
+        "redact_content": [
+            "Unannounced chip designs",
+            "Detailed cost breakdowns" 
+        ]
+    },
+    "Clinical Data Manager": {
+        "topical_access": [
+            "Clinical trials and post-market surveillance",
+            "Data management and analytics"
+        ],
+        "redact_content": [
+            "Identifiable patient records" 
+        ]
+    },
+    "Clinical Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Clinical trials and post-market surveillance"
+        ],
+        "redact_content": [
+            "Anonymized patient data"
+        ]
+    },
+    "Software Engineer": {
+        "topical_access": [
+            "Product development and lifecycle management",
+            "Product testing and validation",
+            "Information technology infrastructure"   
+        ],
+        "redact_content": [
+            "Security key management"
+        ]
+    },
+    "Cybersecurity Analyst": {
+        "topical_access": [
+            "Information technology infrastructure" 
+        ],
+        "redact_content": [
+            "Security testing parameters",
+            "Unannounced system vulnerabilities"
+        ]
+    }
+}

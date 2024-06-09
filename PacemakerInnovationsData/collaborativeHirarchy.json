@@ -1,0 +1,566 @@
+{
+    "John Doe": {
+        "title": "CEO",
+        "topics": [
+            "Company background and milestones",
+            "Financial planning and performance",
+            "Organizational structure and human resources",
+            "Corporate governance and investor relations",
+            "Corporate social responsibility initiatives"
+        ],
+        "collaborators": [
+            "Jane Smith",
+            "Michael Johnson"
+        ]
+    },
+    "Jane Smith": {
+        "title": "CTO",
+        "topics": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation",
+            "Manufacturing, supply chain, and quality management",
+            "Clinical trial planning and execution"
+        ],
+        "collaborators": [
+            "John Doe",
+            "Emily Davis",
+            "David Brown"
+        ]
+    },
+    "Michael Johnson": {
+        "title": "CFO",
+        "topics": [
+            "Financial planning and performance",
+            "Corporate governance and investor relations",
+            "Risk management and mitigation planning",
+            "Business continuity and disaster recovery"
+        ],
+        "collaborators": [
+            "John Doe"
+        ]
+    },
+    "Emily Davis": {
+        "title": "VP of Medical Affairs",
+        "topics": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance",
+            "Clinical education and training",
+            "Key opinion leader (KOL) engagement"
+        ],
+        "collaborators": [
+            "Jane Smith",
+            "Sarah Thompson"
+        ]
+    },
+    "David Brown": {
+        "title": "VP of Regulatory & Quality",
+        "topics": [
+            "Regulatory strategy and compliance",
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Environmental, health, and safety (EHS) compliance"
+        ],
+        "collaborators": [
+            "Jane Smith",
+            "Emily Davis"
+        ]
+    },
+    "Sarah Thompson": {
+        "title": "VP of Manufacturing",
+        "topics": [
+            "Manufacturing, supply chain, and quality management",
+            "Supply chain and vendor management",
+            "Inventory management and forecasting",
+            "Environmental, health, and safety (EHS) compliance"
+        ],
+        "collaborators": [
+            "Emily Davis",
+            "Robert Anderson"
+        ]
+    },
+    "Robert Anderson": {
+        "title": "VP of Marketing",
+        "topics": [
+            "Product development and lifecycle management",
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Product packaging and labeling"
+        ],
+        "collaborators": [
+            "Sarah Thompson",
+            "Jennifer Martinez"
+        ]
+    },
+    "Jennifer Martinez": {
+        "title": "VP of Sales",
+        "topics": [
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Key opinion leader (KOL) engagement",
+            "Customer support and complaint handling"
+        ],
+        "collaborators": [
+            "Robert Anderson"
+        ]
+    },
+    "Christopher Taylor": {
+        "title": "VP of Human Resources",
+        "topics": [
+            "Organizational structure and human resources",
+            "Employee training and development programs",
+            "Employee engagement and culture"
+        ],
+        "collaborators": [
+            "John Doe"
+        ]
+    },
+    "Ashley Moore": {
+        "title": "VP of R&D",
+        "topics": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation",
+            "Clinical trial planning and execution",
+            "Data management and analytics"
+        ],
+        "collaborators": [
+            "Jane Smith",
+            "Matthew Jackson"
+        ]
+    },
+    "Matthew Jackson": {
+        "title": "Director of Electrical Engineering",
+        "topics": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Ashley Moore",
+            "Daniel Robinson"
+        ]
+    },
+    "Daniel Robinson": {
+        "title": "Director of Mechanical Engineering",
+        "topics": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Ashley Moore",
+            "Matthew Jackson"
+        ]
+    },
+    "Eric Young": {
+        "title": "VP of Product Development",
+        "topics": [
+            "Product development and lifecycle management",
+            "Intellectual property and competitive intelligence",
+            "Product testing and validation",
+            "Clinical trial planning and execution",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Ashley Moore",
+            "Matthew Jackson",
+            "Daniel Robinson"
+        ]
+    },
+    "Michelle King": {
+        "title": "Director of Systems Engineering",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Eric Young"
+        ]
+    },
+    "Brandon Wright": {
+        "title": "Director of Verification & Validation",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Eric Young"
+        ]
+    },
+    "Samantha Turner": {
+        "title": "Director of Clinical Engineering",
+        "topics": [
+            "Product development and lifecycle management",
+            "Clinical trials and post-market surveillance"
+        ],
+        "collaborators": [
+            "Eric Young",
+            "Emily Davis"
+        ]
+    },
+    "Nicholas Parker": {
+        "title": "Director of Clinical Research",
+        "topics": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Emily Davis"
+        ]
+    },
+    "Olivia Reed": {
+        "title": "Clinical Trial Manager",
+        "topics": [
+            "Clinical trials and post-market surveillance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Nicholas Parker"
+        ]
+    },
+    "Andrew Cox": {
+        "title": "Medical Science Liaison",
+        "topics": [
+            "Clinical trials and post-market surveillance",
+            "Key opinion leader (KOL) engagement"
+        ],
+        "collaborators": [
+            "Emily Davis",
+            "Jennifer Martinez"
+        ]
+    },
+    "Sophia Ward": {
+        "title": "Director of Regulatory Affairs",
+        "topics": [
+            "Regulatory strategy and compliance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "David Brown"
+        ]
+    },
+    "Jacob Baker": {
+        "title": "Director of Quality Assurance",
+        "topics": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "David Brown"
+        ]
+    },
+    "Ava Hill": {
+        "title": "Director of Quality Control",
+        "topics": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "David Brown"
+        ]
+    },
+    "Ethan Cooper": {
+        "title": "Manufacturing Engineering Manager",
+        "topics": [
+            "Manufacturing, supply chain, and quality management",
+            "Supply chain and vendor management"
+        ],
+        "collaborators": [
+            "Sarah Thompson"
+        ]
+    },
+    "Isabella Morgan": {
+        "title": "Production Manager",
+        "topics": [
+            "Manufacturing, supply chain, and quality management",
+            "Inventory management and forecasting",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Sarah Thompson"
+        ]
+    },
+    "Liam Richardson": {
+        "title": "Product Marketing Manager",
+        "topics": [
+            "Product development and lifecycle management",
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Product packaging and labeling"
+        ],
+        "collaborators": [
+            "Robert Anderson"
+        ]
+    },
+    "Grace Collins": {
+        "title": "Regional Sales Manager",
+        "topics": [
+            "Sales, marketing, and business development",
+            "Market access and reimbursement",
+            "Pricing and reimbursement strategies",
+            "Customer support and complaint handling"
+        ],
+        "collaborators": [
+            "Jennifer Martinez"
+        ]
+    },
+    "Noah Stewart": {
+        "title": "Sales Representative",
+        "topics": [
+            "Sales, marketing, and business development",
+            "Customer support and complaint handling"
+        ],
+        "collaborators": [
+            "Grace Collins"
+        ]
+    },
+    "Lily Sanchez": {
+        "title": "Executive Assistant",
+        "topics": [
+            "Company background and milestones",
+            "Organizational structure and human resources",
+            "Stakeholder engagement and communication"
+        ],
+        "collaborators": [
+            "John Doe"
+        ]
+    },
+    "James Morris": {
+        "title": "Financial Planning & Analysis Manager",
+        "topics": [
+            "Financial planning and performance"
+        ],
+        "collaborators": [
+            "Michael Johnson"
+        ]
+    },
+    "Evelyn Rogers": {
+        "title": "HR Manager",
+        "topics": [
+            "Organizational structure and human resources",
+            "Employee training and development programs",
+            "Employee engagement and culture"
+        ],
+        "collaborators": [
+            "Christopher Taylor"
+        ]
+    },
+    "Henry Bailey": {
+        "title": "Clinical Research Associate",
+        "topics": [
+            "Clinical trials and post-market surveillance"
+        ],
+        "collaborators": [
+            "Nicholas Parker",
+            "Olivia Reed"
+        ]
+    },
+    "Harper Foster": {
+        "title": "Regulatory Specialist",
+        "topics": [
+            "Regulatory strategy and compliance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "Sophia Ward"
+        ]
+    },
+    "Lucas Gibson": {
+        "title": "Quality Engineer",
+        "topics": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance"
+        ],
+        "collaborators": [
+            "Jacob Baker",
+            "Ava Hill"
+        ]
+    },
+    "Natalie Simmons": {
+        "title": "Quality Associate",
+        "topics": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance"
+        ],
+        "collaborators": [
+            "Jacob Baker",
+            "Ava Hill"
+        ]
+    },
+    "Benjamin Cook": {
+        "title": "Manufacturing Engineer",
+        "topics": [
+            "Manufacturing, supply chain, and quality management"
+        ],
+        "collaborators": [
+            "Ethan Cooper"
+        ]
+    },
+    "Stella Price": {
+        "title": "Production Associate",
+        "topics": [
+            "Manufacturing, supply chain, and quality management"
+        ],
+        "collaborators": [
+            "Isabella Morgan"
+        ]
+    },
+    "Gabriel Cruz": {
+        "title": "Firmware Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Joshua Harris",
+            "Tyler Martin"
+        ]
+    },
+    "Zoe Edwards": {
+        "title": "Embedded Systems Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Joshua Harris"
+        ]
+    },
+    "Connor Sullivan": {
+        "title": "Mechanical Design Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Cynthia Clark"
+        ]
+    },
+    "Hazel Ramirez": {
+        "title": "Materials Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Rachel Lee"
+        ]
+    },
+    "Joseph Butler": {
+        "title": "Clinical Data Manager",
+        "topics": [
+            "Clinical trials and post-market surveillance",
+            "Data management and analytics"
+        ],
+        "collaborators": [
+            "Nicholas Parker",
+            "Olivia Reed"
+        ]
+    },
+    "Scarlett Murphy": {
+        "title": "Clinical Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Clinical trials and post-market surveillance"
+        ],
+        "collaborators": [
+            "Samantha Turner"
+        ]
+    },
+    "Levi Kim": {
+        "title": "Software Engineer",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation",
+            "Information technology infrastructure"
+        ],
+        "collaborators": [
+            "Michelle King",
+            "Brandon Wright"
+        ]
+    },
+    "Aria Diaz": {
+        "title": "Cybersecurity Analyst",
+        "topics": [
+            "Information technology infrastructure"
+        ],
+        "collaborators": [
+            "Levi Kim"
+        ]
+    },
+    "Joshua Harris": {
+        "title": "Manager, Embedded Systems",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Matthew Jackson",
+            "Tyler Martin",
+            "Gabriel Cruz",
+            "Zoe Edwards"
+        ]
+    },
+    "Tyler Martin": {
+        "title": "Manager, Firmware",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Joshua Harris",
+            "Gabriel Cruz"
+        ]
+    },
+    "Cynthia Clark": {
+        "title": "Manager, Design",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Daniel Robinson",
+            "Connor Sullivan"
+        ]
+    },
+    "Rachel Lee": {
+        "title": "Manager, Materials",
+        "topics": [
+            "Product development and lifecycle management",
+            "Product testing and validation"
+        ],
+        "collaborators": [
+            "Daniel Robinson",
+            "Hazel Ramirez"
+        ]
+    },
+    "Mia Peterson": {
+        "title": "VP of Quality",
+        "topics": [
+            "Quality management system implementation",
+            "Post-market surveillance and vigilance",
+            "Regulatory affairs and compliance"
+        ],
+        "collaborators": [
+            "David Brown",
+            "Jacob Baker",
+            "Ava Hill"
+        ]
+    },
+    "Alexander Wright": {
+        "title": "Senior Financial Analyst",
+        "topics": [
+            "Financial planning and performance"
+        ],
+        "collaborators": [
+            "James Morris"
+        ]
+    }
+}

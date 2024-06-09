@@ -1,0 +1,41 @@
+name: data-science-project
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - transformers
+  - huggingface_hub
+  - pathlib
+  - networkx
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pandas
+  - numpy
+  - plotly
+  - jupyter
+  - jupyterlab
+  - nb_conda_kernels
+  - nb_conda
+  - requests
+  - pydantic
+  - python-dotenv
+  - pydantic[dotenv]
+  - spacy
+  - langchain[all]
+  - tabulate
+  - pip:
+    - fastapi
+    - openai
+    - streamlit
+    - streamlit-ace
+    - streamlit-vega-lite
+    - streamlit-aggrid
+    - torch_geometric
+    - pyg_lib
+    - torch_scatter
+    - torch_sparse
+    - torch_cluster
+    - torch_spline_conv
+    - uvicorn

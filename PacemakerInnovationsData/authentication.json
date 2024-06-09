@@ -1,0 +1,633 @@
+[
+    {
+        "nameSurname": "John Doe",
+        "token": "1e33b67f-04c2-436f-a926-0f7817140c12",
+        "topic_access_indices": [
+            4,
+            16,
+            26,
+            7,
+            9,
+            36,
+            0,
+            38
+        ],
+        "redact_content_indices": [
+            4
+        ]
+    },
+    {
+        "nameSurname": "Jane Smith",
+        "token": "316dcf30-3e0b-4151-acfd-f7f1d9d88ae8",
+        "topic_access_indices": [
+            29,
+            18,
+            32,
+            19,
+            24,
+            2,
+            33,
+            17
+        ],
+        "redact_content_indices": [
+            17,
+            19
+        ]
+    },
+    {
+        "nameSurname": "Michael Johnson",
+        "token": "9bd7ef4e-061a-472d-b565-f35c299174ca",
+        "topic_access_indices": [
+            16,
+            7,
+            36,
+            0
+        ],
+        "redact_content_indices": [
+            18,
+            35,
+            44
+        ]
+    },
+    {
+        "nameSurname": "Emily Davis",
+        "token": "5e618986-79d1-4e31-a206-64131fa52d79",
+        "topic_access_indices": [
+            3,
+            34,
+            1,
+            22
+        ],
+        "redact_content_indices": [
+            28,
+            48,
+            46
+        ]
+    },
+    {
+        "nameSurname": "David Brown",
+        "token": "4bdfb12d-a255-4140-9eb4-111308b49701",
+        "topic_access_indices": [
+            35,
+            33,
+            27,
+            34,
+            15
+        ],
+        "redact_content_indices": [
+            27,
+            7,
+            41
+        ]
+    },
+    {
+        "nameSurname": "Sarah Thompson",
+        "token": "6c8408f7-d90b-4d6d-a8d7-add324922f60",
+        "topic_access_indices": [
+            24,
+            39,
+            20,
+            15
+        ],
+        "redact_content_indices": [
+            26,
+            20,
+            38
+        ]
+    },
+    {
+        "nameSurname": "Robert Anderson",
+        "token": "e86a47b8-a41a-49f4-af21-03a21ab351ae",
+        "topic_access_indices": [
+            29,
+            37,
+            25,
+            28,
+            31,
+            6
+        ],
+        "redact_content_indices": [
+            22,
+            11
+        ]
+    },
+    {
+        "nameSurname": "Jennifer Martinez",
+        "token": "cccf8aa9-d096-439f-95db-131b96d9e5e0",
+        "topic_access_indices": [
+            37,
+            25,
+            28,
+            22,
+            11
+        ],
+        "redact_content_indices": [
+            37,
+            5
+        ]
+    },
+    {
+        "nameSurname": "Christopher Taylor",
+        "token": "7c31a32d-0ce4-4b16-a0eb-b438a43d7a52",
+        "topic_access_indices": [
+            26,
+            14,
+            13
+        ],
+        "redact_content_indices": [
+            12,
+            30
+        ]
+    },
+    {
+        "nameSurname": "Ashley Moore",
+        "token": "8567b93d-96a9-4ee3-8233-ee222c398782",
+        "topic_access_indices": [
+            29,
+            18,
+            32,
+            2,
+            12
+        ],
+        "redact_content_indices": [
+            10,
+            21
+        ]
+    },
+    {
+        "nameSurname": "Matthew Jackson",
+        "token": "7bed5f29-8599-4619-b815-4ecf571f9944",
+        "topic_access_indices": [
+            29,
+            18,
+            32
+        ],
+        "redact_content_indices": [
+            23,
+            29
+        ]
+    },
+    {
+        "nameSurname": "Daniel Robinson",
+        "token": "91fa0867-1dc2-49b0-9cc8-6b882e7e63ae",
+        "topic_access_indices": [
+            29,
+            18,
+            32
+        ],
+        "redact_content_indices": [
+            15,
+            36
+        ]
+    },
+    {
+        "nameSurname": "Eric Young",
+        "token": "6406d967-2efb-45ec-88b7-ba6fb3fd7139",
+        "topic_access_indices": [
+            29,
+            18,
+            32,
+            2,
+            34
+        ],
+        "redact_content_indices": [
+            51
+        ]
+    },
+    {
+        "nameSurname": "Michelle King",
+        "token": "755690db-4281-4d6b-9395-bd982cc01110",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            25
+        ]
+    },
+    {
+        "nameSurname": "Brandon Wright",
+        "token": "f8d9a91b-6c4e-494a-9170-9ffe56dec9d7",
+        "topic_access_indices": [
+            29,
+            32,
+            34
+        ],
+        "redact_content_indices": [
+            42
+        ]
+    },
+    {
+        "nameSurname": "Samantha Turner",
+        "token": "ba88054f-d805-45e0-ada6-3f5f394c72d0",
+        "topic_access_indices": [
+            29,
+            3
+        ],
+        "redact_content_indices": [
+            14
+        ]
+    },
+    {
+        "nameSurname": "Nicholas Parker",
+        "token": "54314daf-0d3b-4219-a3d3-0b41e4dc8ce7",
+        "topic_access_indices": [
+            3,
+            34
+        ],
+        "redact_content_indices": [
+            0
+        ]
+    },
+    {
+        "nameSurname": "Olivia Reed",
+        "token": "a7d83b1a-8a13-403f-9e56-933225f9c28a",
+        "topic_access_indices": [
+            3,
+            34
+        ],
+        "redact_content_indices": [
+            1
+        ]
+    },
+    {
+        "nameSurname": "Andrew Cox",
+        "token": "ade9cf2a-2935-4824-a989-af1877d7163d",
+        "topic_access_indices": [
+            3,
+            22
+        ],
+        "redact_content_indices": [
+            40,
+            24
+        ]
+    },
+    {
+        "nameSurname": "Sophia Ward",
+        "token": "21741093-c27a-4818-8b6f-8d26e6cc4a1f",
+        "topic_access_indices": [
+            35,
+            34
+        ],
+        "redact_content_indices": [
+            2
+        ]
+    },
+    {
+        "nameSurname": "Jacob Baker",
+        "token": "f86eb185-fd1b-4331-a43c-ef7d9e642769",
+        "topic_access_indices": [
+            33,
+            27,
+            34
+        ],
+        "redact_content_indices": [
+            13
+        ]
+    },
+    {
+        "nameSurname": "Ava Hill",
+        "token": "876dcbd4-ebc4-420f-9e43-8008f727480f",
+        "topic_access_indices": [
+            33,
+            27,
+            34
+        ],
+        "redact_content_indices": [
+            9
+        ]
+    },
+    {
+        "nameSurname": "Ethan Cooper",
+        "token": "6f693a8d-42a7-498e-99aa-55a1c2a847e1",
+        "topic_access_indices": [
+            24,
+            39
+        ],
+        "redact_content_indices": [
+            3
+        ]
+    },
+    {
+        "nameSurname": "Isabella Morgan",
+        "token": "60b349ab-b9e6-4dec-afa3-d5e77f6fef84",
+        "topic_access_indices": [
+            24,
+            20,
+            34
+        ],
+        "redact_content_indices": [
+            6,
+            43
+        ]
+    },
+    {
+        "nameSurname": "Liam Richardson",
+        "token": "637b6c20-1d53-4b3c-83ff-eaf0ecf425e9",
+        "topic_access_indices": [
+            29,
+            37,
+            25,
+            28,
+            31
+        ],
+        "redact_content_indices": [
+            45
+        ]
+    },
+    {
+        "nameSurname": "Grace Collins",
+        "token": "80e6a6f2-0a68-411f-b344-897f7b1101da",
+        "topic_access_indices": [
+            37,
+            25,
+            28,
+            11
+        ],
+        "redact_content_indices": [
+            33,
+            49
+        ]
+    },
+    {
+        "nameSurname": "Noah Stewart",
+        "token": "5e9894e3-99f7-4ff3-8f34-f6f8c9c232a0",
+        "topic_access_indices": [
+            37,
+            11
+        ],
+        "redact_content_indices": [
+            8,
+            47,
+            34
+        ]
+    },
+    {
+        "nameSurname": "Lily Sanchez",
+        "token": "5e6faf48-2254-48c5-a587-9968988bcb9b",
+        "topic_access_indices": [
+            4,
+            26,
+            38
+        ],
+        "redact_content_indices": [
+            4,
+            12
+        ]
+    },
+    {
+        "nameSurname": "James Morris",
+        "token": "ca26e021-9281-41b0-a463-9ac0c30e07e0",
+        "topic_access_indices": [
+            16
+        ],
+        "redact_content_indices": [
+            18,
+            35,
+            44
+        ]
+    },
+    {
+        "nameSurname": "Evelyn Rogers",
+        "token": "d8ae9049-bf25-423d-8498-a7c468fe5ea5",
+        "topic_access_indices": [
+            26,
+            14,
+            13
+        ],
+        "redact_content_indices": [
+            12,
+            30
+        ]
+    },
+    {
+        "nameSurname": "Henry Bailey",
+        "token": "cd62d613-09c5-4a9e-8d17-905b3ebc23df",
+        "topic_access_indices": [
+            3
+        ],
+        "redact_content_indices": [
+            0,
+            1
+        ]
+    },
+    {
+        "nameSurname": "Harper Foster",
+        "token": "af332822-fef4-4a09-9dfc-e4535dcf106e",
+        "topic_access_indices": [
+            35,
+            34
+        ],
+        "redact_content_indices": [
+            27,
+            2
+        ]
+    },
+    {
+        "nameSurname": "Lucas Gibson",
+        "token": "f47ea41a-f3db-4859-acf8-423dd8590ba2",
+        "topic_access_indices": [
+            33,
+            27
+        ],
+        "redact_content_indices": [
+            13,
+            9
+        ]
+    },
+    {
+        "nameSurname": "Natalie Simmons",
+        "token": "391dc868-000c-492c-8b6f-a940de3c6e16",
+        "topic_access_indices": [
+            33,
+            27
+        ],
+        "redact_content_indices": [
+            13,
+            9
+        ]
+    },
+    {
+        "nameSurname": "Benjamin Cook",
+        "token": "88e0b6b7-be96-4d3f-8d58-cc68924c5c21",
+        "topic_access_indices": [
+            24
+        ],
+        "redact_content_indices": [
+            3,
+            43
+        ]
+    },
+    {
+        "nameSurname": "Stella Price",
+        "token": "897c79b1-a46a-44c1-9f58-3ed3de49642f",
+        "topic_access_indices": [
+            24
+        ],
+        "redact_content_indices": [
+            6,
+            43
+        ]
+    },
+    {
+        "nameSurname": "Gabriel Cruz",
+        "token": "3da0fd75-3794-4ed8-a8c4-2ced24503686",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            31
+        ]
+    },
+    {
+        "nameSurname": "Zoe Edwards",
+        "token": "91e88a97-5ba6-4aad-b8ae-f78bda11749a",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            31
+        ]
+    },
+    {
+        "nameSurname": "Connor Sullivan",
+        "token": "1f4679f4-2caa-42d3-8700-0081fa4bc329",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            16
+        ]
+    },
+    {
+        "nameSurname": "Hazel Ramirez",
+        "token": "f82dc876-fef0-4db7-95c7-faddffa39c8c",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            32,
+            50
+        ]
+    },
+    {
+        "nameSurname": "Joseph Butler",
+        "token": "fa2ea37c-d3ac-490d-ba0c-1c4a6a5ab23a",
+        "topic_access_indices": [
+            3,
+            12
+        ],
+        "redact_content_indices": [
+            7
+        ]
+    },
+    {
+        "nameSurname": "Scarlett Murphy",
+        "token": "c09cb190-8d7e-4bea-9be7-f73d087b412a",
+        "topic_access_indices": [
+            29,
+            3
+        ],
+        "redact_content_indices": [
+            14
+        ]
+    },
+    {
+        "nameSurname": "Levi Kim",
+        "token": "0111fa0f-2ca3-4376-b152-564dcd4b7fe6",
+        "topic_access_indices": [
+            29,
+            32,
+            17
+        ],
+        "redact_content_indices": [
+            25
+        ]
+    },
+    {
+        "nameSurname": "Aria Diaz",
+        "token": "498f98ac-2bf6-4a16-a001-cbb19e7b82de",
+        "topic_access_indices": [
+            17
+        ],
+        "redact_content_indices": [
+            42,
+            39
+        ]
+    },
+    {
+        "nameSurname": "Joshua Harris",
+        "token": "4495fa51-d762-4bd2-9b14-15062b36fc10",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            31
+        ]
+    },
+    {
+        "nameSurname": "Tyler Martin",
+        "token": "8ddcbc0c-fc7a-496b-8b81-0606113e217b",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            31
+        ]
+    },
+    {
+        "nameSurname": "Cynthia Clark",
+        "token": "6ded9679-e9bf-493d-aa7d-a014d421c415",
+        "topic_access_indices": [
+            29,
+            32
+        ],
+        "redact_content_indices": [
+            16
+        ]
+    },
+    {
+        "nameSurname": "Rachel Lee",
+        "token": "4b845260-6b17-4c0d-919b-ed80fb5a143b",
+        "topic_access_indices": [
+            29,
+            32,
+            39
+        ],
+        "redact_content_indices": [
+            32,
+            50
+        ]
+    },
+    {
+        "nameSurname": "Mia Peterson",
+        "token": "3abc50f9-9ac3-4e07-b040-562905209c24",
+        "topic_access_indices": [
+            33,
+            27,
+            34
+        ],
+        "redact_content_indices": [
+            9,
+            13
+        ]
+    },
+    {
+        "nameSurname": "Alexander Wright",
+        "token": "5e82ad28-6637-4f36-b20c-432de42b693f",
+        "topic_access_indices": [
+            16
+        ],
+        "redact_content_indices": [
+            18,
+            35,
+            44
+        ]
+    }
+]
